@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.christurtleday-hue/au-agent-tools",
+  "title": "AU Agent Tools: documents, screenshots, addresses, holidays, phones",
+  "description": "PDF to Markdown, screenshots, AU address geocoding, AU/NZ holidays, phone validation.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/christurtleday-hue/apify-au-agent-tools-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/geeky_goth_gamer",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/pdf-docx-to-markdown,geeky_goth_gamer/url-to-screenshot-pdf,geeky_goth_gamer/au-nz-address-parser-geocoder,geeky_goth_gamer/au-nz-public-holidays-business-days,geeky_goth_gamer/phone-number-validator-extractor",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional \"Bearer <Apify API token>\". Without it, the client signs in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
