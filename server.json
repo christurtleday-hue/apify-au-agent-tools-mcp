@@ -1,18 +1,27 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.christurtleday-hue/au-agent-tools",
-  "title": "AU Agent Tools: documents, screenshots, addresses, holidays, phones",
-  "description": "PDF to Markdown, screenshots, AU address geocoding, AU/NZ holidays, phone validation.",
-  "version": "1.0.0",
+  "title": "AU Agent Tools: documents, screenshots, data, verification and AU/NZ utilities",
+  "description": "PDF/DOCX, screenshots, phones, evidence, distill, verify, query, diffs, invoices and AU/NZ data.",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/christurtleday-hue/apify-au-agent-tools-mcp",
     "source": "github"
   },
   "websiteUrl": "https://apify.com/geeky_goth_gamer",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/christurtleday-hue/apify-au-agent-tools-mcp/main/icons/doc-to-markdown.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/pdf-docx-to-markdown,geeky_goth_gamer/url-to-screenshot-pdf,geeky_goth_gamer/au-nz-address-parser-geocoder,geeky_goth_gamer/au-nz-public-holidays-business-days,geeky_goth_gamer/phone-number-validator-extractor",
+      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/pdf-docx-to-markdown,geeky_goth_gamer/url-to-screenshot-pdf,geeky_goth_gamer/phone-number-validator-extractor,geeky_goth_gamer/cited-evidence-pack,geeky_goth_gamer/ai-context-distiller,geeky_goth_gamer/live-link-citation-verifier,geeky_goth_gamer/spreadsheet-json-query-engine,geeky_goth_gamer/page-doc-semantic-diff,geeky_goth_gamer/validated-table-invoice-extractor,geeky_goth_gamer/au-nz-address-parser-geocoder,geeky_goth_gamer/au-nz-public-holidays-business-days",
       "headers": [
         {
           "name": "Authorization",
