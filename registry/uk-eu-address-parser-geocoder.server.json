@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.christurtleday-hue/uk-eu-address-parser-geocoder",
+  "title": "UK & EU Address Parser, Validator & Geocoder",
+  "description": "Parse and validate UK, EU, EEA and Swiss addresses; geocode GB, FR and NL from open data.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/christurtleday-hue/apify-au-agent-tools-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/geeky_goth_gamer",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/christurtleday-hue/apify-au-agent-tools-mcp/main/icons/uk-eu-address.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/uk-eu-address-parser-geocoder",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional \"Bearer <Apify API token>\". Without it, the client signs in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
