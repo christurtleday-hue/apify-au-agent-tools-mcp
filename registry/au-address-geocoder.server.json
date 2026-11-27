@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.christurtleday-hue/au-address-geocoder",
+  "title": "Australian Address Validator & Geocoder",
+  "description": "Validate, standardise and geocode Australian addresses with official G-NAF data; parse NZ.",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/christurtleday-hue/apify-au-agent-tools-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/geeky_goth_gamer",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/christurtleday-hue/apify-au-agent-tools-mcp/main/icons/au-nz-address.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/au-nz-address-parser-geocoder",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional \"Bearer <Apify API token>\". Without it, the client signs in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
