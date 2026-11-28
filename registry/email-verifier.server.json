@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.christurtleday-hue/email-verifier",
+  "title": "Email Verifier: Syntax, MX, Disposable & Role Check",
+  "description": "Bulk email checks without sending mail: syntax, MX, disposable, role accounts and typo fixes.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/christurtleday-hue/apify-au-agent-tools-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/geeky_goth_gamer",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/christurtleday-hue/apify-au-agent-tools-mcp/main/icons/email-verifier.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/email-verifier-mx-disposable",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional \"Bearer <Apify API token>\". Without it, the client signs in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

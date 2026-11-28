@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.christurtleday-hue/business-tax-id-checker",
+  "title": "Business & Tax ID Checker (EU VAT VIES, ABN, EIN)",
+  "description": "Validate 200+ VAT/GST and company ID types; live EU VIES lookups return name and address.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/christurtleday-hue/apify-au-agent-tools-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/geeky_goth_gamer",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/christurtleday-hue/apify-au-agent-tools-mcp/main/icons/business-id-checker.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=geeky_goth_gamer/business-tax-id-checker",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional \"Bearer <Apify API token>\". Without it, the client signs in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
